@@ -116,6 +116,14 @@ export async function POST(request) {
   }
 }
 
+// Health check: shows whether the key is visible to the server (never the key itself).
 export async function GET() {
-  return Response.json({ error: "Method not allowed." }, { status: 405 });
+  const names = Object.keys(process.env).filter((k) => k.toUpperCase().includes("GROQ"));
+  return Response.json({
+    keyConfigured: Boolean(process.env.GROQ_API_KEY),
+    model: MODEL,
+    groqVariableNames: names,
+    environment: process.env.VERCEL_ENV || "unknown",
+    deployment: (process.env.VERCEL_GIT_COMMIT_SHA || "").slice(0, 7),
+  });
 }
