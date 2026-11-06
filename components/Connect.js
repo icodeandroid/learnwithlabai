@@ -1,21 +1,12 @@
 "use client";
 
+import { COURSES } from "@/lib/courses";
 import { useState } from "react";
 import Reveal from "./Reveal";
 import Icon from "./Icons";
 import { SITE } from "@/lib/site";
 
-const TRACKS = [
-  "Workflow Automation with n8n",
-  "Make.com & Zapier",
-  "Agentic AI Systems",
-  "RAG & Vector Databases",
-  "LLMs & Model Differences",
-  "Prompt Engineering & AI Content",
-  "AI Tools for Real Work",
-  "AI Integrations & APIs",
-  "Not sure yet — pick a track for me",
-];
+const TRACKS = [...COURSES.map((c) => c.title), "Not sure yet — pick a track for me"];
 
 const WINDOWS = [
   "Saturday 9:00 – 10:30",
@@ -195,7 +186,7 @@ export default function Connect() {
                     </select>
                   </div>
                   <div>
-                    <label htmlFor="track" className="mb-1.5 block text-[12.5px] font-bold text-ink">Track</label>
+                    <label htmlFor="track" className="mb-1.5 block text-[12.5px] font-bold text-ink">Skill Mastery Track</label>
                     <select id="track" name="track" className="field" value={form.track} onChange={update("track")}>
                       {TRACKS.map((x) => <option key={x}>{x}</option>)}
                     </select>

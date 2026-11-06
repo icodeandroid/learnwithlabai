@@ -7,9 +7,9 @@ export const metadata = {
     "One-to-one, task-based mentoring in n8n, Make, Zapier, agentic AI, RAG, prompt engineering and AI integrations. Weekend slots of 90 minutes or 2 hours.",
   keywords: [
     "n8n mentoring",
-    "Make automation course",
+    "Make automation training",
     "Zapier training",
-    "agentic AI course",
+    "agentic AI training",
     "RAG AI training",
     "prompt engineering mentoring",
     "weekend AI sessions Karachi",

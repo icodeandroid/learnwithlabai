@@ -54,7 +54,7 @@ export default function Features() {
             </Reveal>
             <Reveal delay={200}>
               <p className="mt-7 max-w-md text-[16px] leading-relaxed text-muted">
-                Courses hand you a finished recording and hope. Here you get a task I set, a
+                Recorded courses hand you a video and hope. Here you get a task I set, a
                 deadline of ninety minutes, and someone watching your screen who already knows
                 where it breaks.
               </p>

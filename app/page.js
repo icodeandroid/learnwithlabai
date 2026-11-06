@@ -11,6 +11,7 @@ import CtaBand from "@/components/CtaBand";
 import FAQ from "@/components/FAQ";
 import Connect from "@/components/Connect";
 import Footer from "@/components/Footer";
+import ChatWidget from "@/components/ChatWidget";
 
 export default function Page() {
   return (
@@ -30,6 +31,7 @@ export default function Page() {
         <Connect />
       </main>
       <Footer />
+      <ChatWidget />
     </>
   );
 }

@@ -3,7 +3,7 @@ import { SITE } from "@/lib/site";
 
 const COLS = [
   {
-    title: "Tracks",
+    title: "Skill Mastery Tracks",
     links: [
       { l: "n8n Automation", h: "#tracks" },
       { l: "Make & Zapier", h: "#tracks" },

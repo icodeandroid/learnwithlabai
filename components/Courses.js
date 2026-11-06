@@ -11,16 +11,16 @@ export default function Courses() {
       <div className="container-x relative">
         <div className="mx-auto max-w-2xl text-center">
           <Reveal>
-            <span className="label-eyebrow">Courses</span>
+            <span className="label-eyebrow">Skill Mastery Tracks</span>
           </Reveal>
           <Reveal delay={80}>
             <h2 className="h-section">
-              Seven courses. <span className="grad-text italic">Every one is a build.</span>
+              Seven Skill Mastery Tracks. <span className="grad-text italic">Every one is a build.</span>
             </h2>
           </Reveal>
           <Reveal delay={150}>
             <p className="mx-auto mt-6 text-[16px] leading-relaxed text-muted">
-              Each course breaks into modules, and each session covers one task from a module.
+              Each track breaks into modules, and each session covers one task from a module.
               I set the task and the order, matched to what you can already do.
             </p>
           </Reveal>
@@ -62,7 +62,7 @@ export default function Courses() {
 
                 {/* modules */}
                 <p className="mt-7 text-[10.5px] font-bold uppercase tracking-[0.18em] text-gold">
-                  What this course includes
+                  What this track includes
                 </p>
                 <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                   {c.modules.map((m, mi) => (
@@ -98,14 +98,14 @@ export default function Courses() {
                   </span>
                   <a
                     href={waLink(
-                      `Hi, I'd like to start the "${c.title}" course on LearnWithLabAI.\n\nMy background: \nWhat I want to be able to do: \nSlot I'd prefer: `
+                      `Hi, I'd like to start the "${c.title}" Skill Mastery Track on LearnWithLabAI.\n\nMy background: \nWhat I want to be able to do: \nSlot I'd prefer: `
                     )}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary ml-auto !px-6 !py-3 text-[13.5px]"
                   >
                     <Icon name="chat" className="h-4 w-4" />
-                    Choose this course
+                    Choose this track
                   </a>
                 </div>
               </article>

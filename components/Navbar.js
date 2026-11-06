@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { waLink } from "@/lib/site";
 
 const LINKS = [
-  { href: "#tracks", label: "Tracks" },
+  { href: "#tracks", label: "Skill Tracks" },
   { href: "#how", label: "How It Works" },
   { href: "#why", label: "Why 1-on-1" },
   { href: "#slots", label: "Slots" },

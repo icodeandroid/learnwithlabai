@@ -126,7 +126,7 @@ export default function Hero() {
             {[
               { n: "1:1", l: "Never a group" },
               { n: "90", l: "Minutes per slot" },
-              { n: "8", l: "Skill tracks" },
+              { n: "7", l: "Skill Mastery Tracks" },
               { n: "100%", l: "Hands on keyboard" },
             ].map((s) => (
               <div key={s.l} className="rounded-2xl glass px-4 py-5 text-center transition-transform duration-500 hover:-translate-y-1.5">
