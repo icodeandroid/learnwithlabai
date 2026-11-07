@@ -9,7 +9,7 @@ const STEPS = [
   },
   {
     n: "02",
-    title: "You choose your slot — once",
+    title: "You choose your slot once",
     time: "Before you start",
     desc: "Pick the weekend window that fits your life. It stays yours from then on, so the time never has to be arranged again.",
   },
@@ -35,7 +35,7 @@ const STEPS = [
     n: "06",
     title: "It becomes portfolio work",
     time: "Over time",
-    desc: "Tasks stack up into real, demonstrable builds — the kind you can show an employer or charge a client for.",
+    desc: "Tasks stack up into real, demonstrable builds, the kind you can show an employer or charge a client for.",
   },
 ];
 

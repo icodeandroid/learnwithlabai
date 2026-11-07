@@ -24,12 +24,12 @@ const WHO = [
 const DAYS = [
   {
     day: "Saturday",
-    window: "9:00 AM – 1:00 PM",
+    window: "9:00 AM to 1:00 PM",
     starts: ["9:00", "10:00", "11:00", "11:30"],
   },
   {
     day: "Sunday",
-    window: "8:00 AM – 1:00 PM",
+    window: "8:00 AM to 1:00 PM",
     starts: ["8:00", "9:00", "10:00", "11:00", "11:30"],
   },
 ];
@@ -50,7 +50,7 @@ export default function Schedule() {
           <Reveal delay={150}>
             <p className="mx-auto mt-6 text-[16px] leading-relaxed text-muted">
               You pick one weekend window when you start, and it stays yours for the whole
-              programme — same day, same time, every week. Sessions run {SITE.sessionLengths}.
+              programme. Same day, same time, every week. Sessions run {SITE.sessionLengths}.
               All times {SITE.timezone}.
             </p>
           </Reveal>

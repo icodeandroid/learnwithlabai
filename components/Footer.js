@@ -94,7 +94,7 @@ export default function Footer() {
             © {new Date().getFullYear()} {SITE.name}. All rights reserved.
           </p>
           <p className="text-[13px] font-medium text-muted">
-            Saturday 9 AM – 1 PM · Sunday 8 AM – 1 PM · {SITE.timezone}
+            Saturday 9 AM to 1 PM · Sunday 8 AM to 1 PM · {SITE.timezone}
           </p>
         </div>
       </div>

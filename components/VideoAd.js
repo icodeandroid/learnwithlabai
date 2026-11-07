@@ -16,7 +16,7 @@ export default function VideoAd() {
           </Reveal>
           <Reveal delay={160}>
             <p className="mx-auto mt-6 max-w-lg text-[16px] leading-relaxed text-muted lg:mx-0">
-              Thirty-six seconds on why AI tools now matter for every career — and how {SITE.offering.many} get
+              Thirty-six seconds on why AI tools now matter for every career, and how {SITE.offering.many} get
               you there, one-to-one, on your weekends.
             </p>
           </Reveal>

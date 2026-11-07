@@ -5,7 +5,7 @@ const BUILDS = [
   {
     icon: "flow",
     title: "Lead capture that runs itself",
-    desc: "Form or webinar signup lands in a sheet, gets scored by a model, and the right follow-up email goes out — without anyone touching it.",
+    desc: "Form or webinar signup lands in a sheet, gets scored by a model, and the right follow-up email goes out without anyone touching it.",
     stack: "n8n · OpenAI · Google Sheets",
   },
   {
@@ -17,7 +17,7 @@ const BUILDS = [
   {
     icon: "prompt",
     title: "A content engine in your voice",
-    desc: "One brief in, a week of posts out — structured, on-brand and reviewable before anything gets published.",
+    desc: "One brief in, a week of posts out. Structured, on-brand and reviewable before anything gets published.",
     stack: "Make.com · GPT · Airtable",
   },
   {

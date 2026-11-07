@@ -11,12 +11,12 @@ const FEATURES = [
   {
     icon: "project",
     title: "You keep the keyboard",
-    desc: "I don't demo while you watch. You type, you break things, you fix them — which is the only way it sticks.",
+    desc: "I don't demo while you watch. You type, you break things, you fix them. That is the only way it sticks.",
   },
   {
     icon: "calendar",
     title: "One fixed slot, kept",
-    desc: "You choose your weekend window once at the start. It is yours from then on — same time, every week, no rebooking.",
+    desc: "You choose your weekend window once at the start. It is yours from then on. Same time, every week, no rebooking.",
   },
   {
     icon: "flow",

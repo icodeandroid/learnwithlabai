@@ -6,7 +6,7 @@ import BotAvatar from "./BotAvatar";
 
 const GREETING = {
   role: "assistant",
-  content: `Hi! I'm ${SITE.bot}, the ${SITE.name} assistant. Ask me about our ${SITE.offering.many}, how sessions work, weekend slots — or any AI and automation question.`,
+  content: `Hi! I'm ${SITE.bot}, the ${SITE.name} assistant. Ask me about our ${SITE.offering.many}, how sessions work, weekend slots, or any AI and automation question.`,
 };
 
 const SUGGESTIONS = [
@@ -90,7 +90,7 @@ export default function ChatWidget() {
         ...m,
         {
           role: "assistant",
-          content: `I couldn't connect just now. Message us on WhatsApp: ${SITE.whatsappDisplay} — ${SITE.whatsappLink}`,
+          content: `I couldn't connect just now. Message us on WhatsApp: ${SITE.whatsappDisplay} ${SITE.whatsappLink}`,
         },
       ]);
     } finally {

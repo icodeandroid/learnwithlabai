@@ -6,16 +6,16 @@ import Reveal from "./Reveal";
 import Icon from "./Icons";
 import { SITE } from "@/lib/site";
 
-const TRACKS = [...COURSES.map((c) => c.title), "Not sure yet — pick a track for me"];
+const TRACKS = [...COURSES.map((c) => c.title), "Not sure yet, pick a track for me"];
 
 const WINDOWS = [
-  "Saturday 9:00 – 10:30",
-  "Saturday 10:30 – 12:00",
-  "Saturday 11:00 – 1:00 (2 hrs)",
-  "Sunday 8:00 – 9:30",
-  "Sunday 9:30 – 11:00",
-  "Sunday 11:00 – 1:00 (2 hrs)",
-  "Flexible — tell me which slots are open",
+  "Saturday 9:00 to 10:30",
+  "Saturday 10:30 to 12:00",
+  "Saturday 11:00 to 1:00 (2 hrs)",
+  "Sunday 8:00 to 9:30",
+  "Sunday 9:30 to 11:00",
+  "Sunday 11:00 to 1:00 (2 hrs)",
+  "Flexible, tell me which slots are open",
 ];
 
 const LEVELS = ["Complete beginner", "Some no-code experience", "Developer / technical", "Already automating"];
@@ -90,7 +90,7 @@ export default function Connect() {
             </Reveal>
             <Reveal delay={200}>
               <p className="mt-7 max-w-md text-[16px] leading-relaxed text-muted">
-                WhatsApp is fastest — a sentence about your background is enough to start. I&apos;ll
+                WhatsApp is fastest. A sentence about your background is enough to start. I&apos;ll
                 tell you which track you begin on and which weekly slots are still open.
               </p>
             </Reveal>
