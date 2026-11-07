@@ -8,7 +8,7 @@ export default function LogoMarquee() {
   const row = [...TOOLS, ...TOOLS];
 
   return (
-    <section className="relative border-y border-gold/12 bg-deep py-9">
+    <section className="relative border-y border-gold/15 bg-deep py-9">
       <p className="container-x mb-6 text-center font-sans text-[11.5px] font-bold uppercase tracking-[0.26em] text-muted/70">
         Tools your tasks are built with
       </p>

@@ -15,7 +15,7 @@ export default function Courses() {
           </Reveal>
           <Reveal delay={80}>
             <h2 className="h-section">
-              Seven Skill Mastery Tracks. <span className="grad-text italic">Every one is a build.</span>
+              Eight Skill Mastery Tracks. <span className="grad-text italic">Every one is a build.</span>
             </h2>
           </Reveal>
           <Reveal delay={150}>
@@ -68,7 +68,7 @@ export default function Courses() {
                   {c.modules.map((m, mi) => (
                     <div
                       key={m.name}
-                      className="rounded-2xl border border-gold/12 bg-base/40 p-4"
+                      className="rounded-2xl border border-gold/15 bg-base/40 p-4"
                     >
                       <p className="flex items-center gap-2 font-display text-[15px] font-medium text-ink">
                         <span className="grid h-5 w-5 shrink-0 place-items-center rounded-md bg-lilac/15 text-[10px] font-bold text-lilaclt">
@@ -89,7 +89,7 @@ export default function Courses() {
                 </div>
 
                 {/* footer */}
-                <div className="mt-6 flex flex-wrap items-center gap-2 border-t border-gold/12 pt-5">
+                <div className="mt-6 flex flex-wrap items-center gap-2 border-t border-gold/15 pt-5">
                   <span className="rounded-full border border-gold/20 px-3 py-1 text-[12px] font-bold text-muted">
                     {c.sessions}
                   </span>

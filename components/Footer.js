@@ -89,7 +89,7 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-gold/12 pt-7 sm:flex-row">
+        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-gold/15 pt-7 sm:flex-row">
           <p className="text-[13px] font-medium text-muted">
             © {new Date().getFullYear()} {SITE.name}. All rights reserved.
           </p>

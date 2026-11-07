@@ -60,7 +60,7 @@ export default function Testimonials() {
                 </div>
                 <h3 className="mt-4 font-display text-[20px] font-medium text-ink">{b.title}</h3>
                 <p className="mt-3 text-[14.5px] leading-relaxed text-muted">{b.desc}</p>
-                <p className="mt-5 border-t border-gold/12 pt-4 text-[12px] font-bold uppercase tracking-[0.14em] text-gold">
+                <p className="mt-5 border-t border-gold/15 pt-4 text-[12px] font-bold uppercase tracking-[0.14em] text-gold">
                   {b.stack}
                 </p>
               </article>
