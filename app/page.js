@@ -2,6 +2,7 @@ import ScrollProgress from "@/components/ScrollProgress";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import LogoMarquee from "@/components/LogoMarquee";
+import VideoAd from "@/components/VideoAd";
 import Courses from "@/components/Courses";
 import Features from "@/components/Features";
 import LearningPath from "@/components/LearningPath";
@@ -21,6 +22,7 @@ export default function Page() {
       <main>
         <Hero />
         <LogoMarquee />
+        <VideoAd />
         <Courses />
         <Features />
         <LearningPath />
