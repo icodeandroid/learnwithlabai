@@ -1,4 +1,4 @@
-// LearnWithLabAI's chatbot mascot: a small gold robot with an AI-spark antenna.
+// EpochCloudAI's chatbot mascot: a small gold robot with an AI-spark antenna.
 // Animations (float, blink, spark, wave) live in app/globals.css under "bot-".
 export default function BotAvatar({ size = 56, animated = true, wave = false, className = "" }) {
   return (

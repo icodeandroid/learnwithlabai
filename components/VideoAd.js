@@ -47,7 +47,7 @@ export default function VideoAd() {
               playsInline
               controls
               preload="metadata"
-              aria-label="LearnWithLabAI video: why AI skills matter for your career"
+              aria-label="EpochCloudAI video: why AI skills matter for your career"
             />
           </div>
         </Reveal>

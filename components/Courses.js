@@ -98,7 +98,7 @@ export default function Courses() {
                   </span>
                   <a
                     href={waLink(
-                      `Hi, I'd like to start the "${c.title}" Skill Mastery Track on LearnWithLabAI.\n\nMy background: \nWhat I want to be able to do: \nSlot I'd prefer: `
+                      `Hi, I'd like to start the "${c.title}" Skill Mastery Track on EpochCloudAI.\n\nMy background: \nWhat I want to be able to do: \nSlot I'd prefer: `
                     )}
                     target="_blank"
                     rel="noopener noreferrer"

@@ -37,14 +37,14 @@ export default function Navbar() {
             scrolled ? "glass shadow-soft" : "border border-transparent"
           }`}
         >
-          <a href="#home" className="flex items-center" onClick={() => setOpen(false)} aria-label="LearnWithLabAI home">
+          <a href="#home" className="flex items-center" onClick={() => setOpen(false)} aria-label="EpochCloudAI home">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="./brand/logo-stacked-dark.svg"
-              alt="LearnWithLabAI"
-              width="94"
-              height="61"
-              className="h-[61px] w-auto"
+              src="./brand/epochcloudai-logo-dark.svg"
+              alt="EpochCloudAI"
+              width="228"
+              height="40"
+              className="h-[34px] w-auto sm:h-[40px]"
             />
           </a>
 
@@ -63,7 +63,7 @@ export default function Navbar() {
 
           <div className="flex items-center gap-2">
             <a
-              href={waLink("Hi, I'd like to book a one-to-one slot with LearnWithLabAI.")}
+              href={waLink("Hi, I'd like to book a one-to-one slot with EpochCloudAI.")}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary hidden !px-6 !py-3 text-[13.5px] sm:inline-flex"
@@ -109,7 +109,7 @@ export default function Navbar() {
             ))}
           </ul>
           <a
-            href={waLink("Hi, I'd like to book a one-to-one slot with LearnWithLabAI.")}
+            href={waLink("Hi, I'd like to book a one-to-one slot with EpochCloudAI.")}
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setOpen(false)}

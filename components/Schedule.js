@@ -89,7 +89,7 @@ export default function Schedule() {
 
                 <a
                   href={waLink(
-                    `Hi, I'd like to claim a ${d.day} slot on LearnWithLabAI (${d.window}).\n\nStart time I want: \nLength: 90 minutes / 2 hours\nMy background: `
+                    `Hi, I'd like to claim a ${d.day} slot on EpochCloudAI (${d.window}).\n\nStart time I want: \nLength: 90 minutes / 2 hours\nMy background: `
                   )}
                   target="_blank"
                   rel="noopener noreferrer"

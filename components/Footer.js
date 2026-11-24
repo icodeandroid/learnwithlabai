@@ -30,14 +30,14 @@ export default function Footer() {
       <div className="container-x py-16">
         <div className="grid gap-10 lg:grid-cols-[minmax(0,1.4fr)_repeat(2,minmax(0,0.8fr))]">
           <div>
-            <a href="#home" className="inline-block" aria-label="LearnWithLabAI home">
+            <a href="#home" className="inline-block" aria-label="EpochCloudAI home">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="./brand/logo-stacked-dark.svg"
-                alt="LearnWithLabAI"
-                width="138"
-                height="90"
-                className="h-[90px] w-auto"
+                src="./brand/epochcloudai-logo-dark.svg"
+                alt="EpochCloudAI"
+                width="296"
+                height="52"
+                className="h-[52px] w-auto"
               />
             </a>
             <p className="mt-5 max-w-xs text-[14.5px] leading-relaxed text-muted">

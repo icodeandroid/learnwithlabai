@@ -1,4 +1,4 @@
-# LearnWithLabAI — Single-Page Website
+# EpochCloudAI — Single-Page Website
 
 A production-ready, animated one-page Next.js site for an AI education brand teaching
 n8n / Make / Zapier automation, agentic AI, RAG, LLM fundamentals, prompt engineering,
@@ -58,7 +58,7 @@ The JSON payload:
 {
   "name": "...", "email": "...", "phone": "...",
   "track": "...", "batch": "...", "experience": "...",
-  "message": "...", "submittedAt": "ISO-8601", "source": "learnwithlabai-landing"
+  "message": "...", "submittedAt": "ISO-8601", "source": "epochcloudai-landing"
 }
 ```
 
@@ -72,7 +72,7 @@ The JSON payload:
 | 2 | Hero — animated mesh blobs, rotating headline, floating chips, stat band | `Hero.js` |
 | 3 | Tools marquee (n8n, Make, Zapier, LangChain, Pinecone…) | `LogoMarquee.js` |
 | 4 | 8 course cards with level + duration | `Courses.js` |
-| 5 | Why LearnWithLabAI — 6 benefits, sticky side CTA | `Features.js` |
+| 5 | Why EpochCloudAI — 6 benefits, sticky side CTA | `Features.js` |
 | 6 | 16-week learning path timeline | `LearningPath.js` |
 | 7 | Who it's for + 3 weekend batches | `Schedule.js` |
 | 8 | Student testimonials | `Testimonials.js` |

@@ -29,7 +29,7 @@ export async function POST(request) {
     experience: clean(body.experience, 80),
     message: clean(body.message, 2000),
     submittedAt: new Date().toISOString(),
-    source: "learnwithlabai-landing",
+    source: "epochcloudai-landing",
   };
 
   if (!lead.name || !lead.email) {

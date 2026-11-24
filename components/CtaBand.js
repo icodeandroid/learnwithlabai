@@ -28,7 +28,7 @@ Fixed weekend slots
 
               <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
                 <a
-                  href={waLink("Hi, I'd like to start sessions with LearnWithLabAI.\n\nMy background: \nWhat I want to be able to do: \nSlot I'd prefer: ")}
+                  href={waLink("Hi, I'd like to start sessions with EpochCloudAI.\n\nMy background: \nWhat I want to be able to do: \nSlot I'd prefer: ")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary w-full sm:w-auto"
