@@ -1,7 +1,12 @@
 import "./globals.css";
 
 export const metadata = {
-  metadataBase: new URL("https://learnwithlabai.vercel.app"),
+  // On Vercel this is the live production domain; locally it falls back to the Vercel URL.
+  metadataBase: new URL(
+    process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : "https://epochcloudai.vercel.app"
+  ),
   title: "EpochCloudAI | One-to-One AI & Automation Mentoring on Weekends",
   description:
     "One-to-one, task-based mentoring in n8n, Make, Zapier, agentic AI, RAG, prompt engineering and AI integrations. Weekend slots of 90 minutes or 2 hours.",
